@@ -4,17 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --forceExit"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "dependencies": {
-    "jest": "^29.7.0",
-    "puppeteer": "^24.4.0"
-  },
   "devDependencies": {
-    "prettier": "^3.5.3"
+    "jest": "^29.7.0",
+    "prettier": "^3.5.3",
+    "puppeteer": "^24.4.0"
   }
 }
